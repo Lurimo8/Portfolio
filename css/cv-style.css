@@ -58,8 +58,8 @@ body {
 
 .cv-titulo {
   font-size: 1.5rem;
-  color: #5e72e4;
-  border-bottom: 2px solid #5e72e4;
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .cv-lista a:hover {
-  color: #5e72e4;
+  color: #2563eb;
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ body {
   margin-right: 1rem;
   width: 16px;
   height: 16px;
-  color: #5e72e4;
+  color: #2563eb;
 }
 
 .cv-botones {
