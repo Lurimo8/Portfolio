@@ -1,0 +1,120 @@
+/* cv-style.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #eeeeee;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-header {
+  background-color: #27293d;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cv-contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cv-foto {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cv-foto:hover {
+  transform: scale(1.2); 
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.cv-nombre {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0 0;
+}
+
+.cv-profesion {
+  font-size: 1.2rem;
+  color: #adb5bd;
+}
+
+.cv-seccion {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #2d2f45;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cv-titulo {
+  font-size: 1.5rem;
+  color: #5e72e4;
+  border-bottom: 2px solid #5e72e4;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cv-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-lista li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.cv-lista a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cv-lista a:hover {
+  color: #5e72e4;
+  cursor: pointer;
+}
+
+.cv-lista i {
+  margin-right: 1rem;
+  width: 16px;
+  height: 16px;
+  color: #5e72e4;
+}
+
+.cv-botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.btn-enlace {
+  flex: 1 1 250px;
+  max-width: 300px;
+  background-color: #2563eb;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-enlace:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
