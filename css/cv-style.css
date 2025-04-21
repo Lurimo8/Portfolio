@@ -18,6 +18,7 @@ body {
 .cv-contenedor {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .cv-foto {
@@ -34,7 +35,6 @@ body {
   transform: scale(1.2); 
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
-
 
 .cv-nombre {
   font-size: 2rem;
@@ -117,4 +117,55 @@ body {
 .btn-enlace:hover {
   background-color: #1e40af;
   transform: translateY(-2px);
+}
+
+/* -------------------- RESPONSIVE -------------------- */
+
+@media (max-width: 768px) {
+  .cv-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .cv-nombre {
+    font-size: 1.6rem;
+  }
+
+  .cv-profesion {
+    font-size: 1rem;
+  }
+
+  .cv-foto {
+    width: 120px;
+    height: 120px;
+  }
+
+  .btn-enlace {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-nombre {
+    font-size: 1.4rem;
+  }
+
+  .cv-profesion {
+    font-size: 0.95rem;
+  }
+
+  .cv-foto {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cv-seccion {
+    padding: 1rem;
+  }
+
+  .btn-enlace {
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 12px 16px;
+  }
 }
