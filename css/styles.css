@@ -237,7 +237,7 @@ body {
 /* 5 columnas en pantallas grandes */
 @media (min-width: 1024px) {
   .grid-tecnologias {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     max-width: 1100px;
   }
 }
